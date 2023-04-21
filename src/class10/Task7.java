@@ -13,8 +13,7 @@ public class Task7 {
         once we are done looping through all the numbers print the results
          */
         int largest=numbers[0];
-        for (int num:numbers
-             ) {
+        for (int num:numbers) {
             if(num>largest){
                 largest=num;
             }
