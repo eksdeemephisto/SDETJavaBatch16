@@ -7,6 +7,9 @@ package class19;
 // create constructors as well in each child class to initialize those
 // properties create one object of each class and call the printInfo method
 public class Animal {
+    public static void main(String[] args) {
+
+    }
     private String name;
     private String color;
     private String breed;
@@ -58,8 +61,6 @@ class Horse extends Animal {
 }
 
 class AnimalTester{
-
-
 
     public static void main(String[] args) {
         Dog dog=new Dog("Tom","Black","persian",10,20,200);
